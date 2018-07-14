@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import React from 'react';
 
 const Review = ({ display_title, byline, summary_short, opening_date, link }) => {
@@ -23,3 +24,11 @@ MovieReviews.defaultProps = {
 };
 
 export default MovieReviews
+=======
+// Code MovieReviews Here
+import React, { Component } from 'react';
+
+export default class MovieReviews extends Component {
+  
+}
+>>>>>>> 9fec5e57d7598a2053d741e8751cd8b24021982f

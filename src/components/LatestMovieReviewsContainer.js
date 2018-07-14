@@ -7,6 +7,7 @@ const URL = 'https://api.nytimes.com/svc/movies/v2/reviews/all.json?'
             + `api-key=${NYT_API_KEY}`;
 
 // Code LatestMovieReviewsContainer Here
+<<<<<<< HEAD
 class LatestMovieReviewsContainer extends Component {
   constructor() {
     super()
@@ -32,3 +33,12 @@ class LatestMovieReviewsContainer extends Component {
 }
 
 export default LatestMovieReviewsContainer
+=======
+export default class LatestMovieReviewsContainer extends Component {
+
+}
+
+export default class SearchableMovieReviewsContainer extends Component {
+
+}
+>>>>>>> 9fec5e57d7598a2053d741e8751cd8b24021982f
